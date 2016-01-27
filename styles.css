@@ -2,10 +2,35 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+.text-center {
+    text-align:center;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+body {
+    background-color: #d0e4fe;
+}
+
+
+body {
+    background: #fafafa url("../imgs/content_inner_bg.png");
+    margin: 0;
+    font-family: "Open Sans"
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #404040;
+  }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -33,3 +58,11 @@ P.blocktext {
     left: 0%;
     top: 50%;
     width: 100%;
+
+    media="screen"
+    #tray .remove {
+        width: 200px;
+        float: right;
+        text-align: right;
+        margin-top: 8px;
+    }
